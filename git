@@ -1,0 +1,121 @@
+ce este git pe scurt: este o platformă de depozit la distanță
+
+Comande pt git pt a initializa un proiect direct in git Bash
+facem uramtoarele comenzi:
+cd "adresa folderului" ex:desktop/test-git
+git init
+cd .git
+ls 
+cd..
+echos"# ce adaugam pe github" >>Fisierul pe care il adauga ex : echo"# test-git" >>README.ms
+git add .
+git commit -m"numele comitului" si etc
+git push -u origin master
+
+//Cum deschide un fisier:
+start numelefisierului.estensia lui(txt,pdf,jpg)
+
+git status - starea proiectului
+//git push origin master
+git log - sa vezi istoricu commiturilor
+git log -1 returneaza ultimul comit pe care l-am facut
+git log --oneline arata toate comiturile dar mai restarns scrius in terminal
+git log --stat arata comiturile si fiecare modificare adusa 
+ls - arata documentele din fisierul respectiv
+git init - -initializam un repozitori gol 
+cd .git
+git rm numele fisierului - sterge fisierul pe care lai selectat
+git rm --chaced numelefisierului - Fișierul este încă prezent în directorul 
+vostru de lucru, dar nu va mai fi urmărit de Git pentru viitoarele commit-uri.
+
+git mv Mihai ALex- redenumeste numele fisierului din Mihai in Alex
+git checkout -b numa nou - acesta realizeaza o noua bransa in repositoriul actual
+git switch -c nume nou - bransa noua
+git switch sau git checkout schimba bransele intre ele cum ar fi ai doua branse beni si alex
+git checkout alex.Eu find pe ramura beni
+git merge -pentru a imbina chestile care le-ai facut dintro brancha in alta
+git cat-file -p + codu respectivului fisier-  a afișa conținutul unui obiect specific din baza de date Git. 
+vim menu.txt - sau oricare alt fisier te adauga in  el il modifici sua mai adaugi ceva la el 
+si sa salvezi dai :wq si dupa 
+git count-objects - arata cate obiecte ai si cata mermorie are
+git rebase ... - este folosită pentru a "reaplica" o serie de commit-uri de pe o
+ramură pe alta ramură. 
+  git tag numeletagului -a -m "comentariu sau descrierea tagului"
+sau
+  git tag numele tagului
+git fetch - este folosită pentru a aduce informații actualizate dintr-un
+ depozit remote,dar fără a integra aceste modificări în ramurile locale curente
+Cum rezolvam un conflict
+git pull(luam comitul cu care ave conflict) git merge(imbinam cu cel din respectiva
+ bransa si facem sa fie oke) git push -(ii dam tata sa meraga)
+ 
+
+git branch -m numeVechi numeNou
+git branch -d numeleBransei - stergem bransa
+git branch -D numeleBransei - Stergem Fortat Bransa
+
+git merge --abort - Această comandă este utilă atunci când întâlniți 
+conflicte în timpul procesului de îmbinare și doriți să anulați
+aceste modificări și să reveniți la starea anterioară a ramurii.
+ 
+$ nano tiket2.txt - -creeaza fisiere 
+
+git pull --rebase - are rolul de a aduce modificările din 
+depozitul remote în ramura ta curentă, dar în loc să creeze un 
+commit de tip "merge", cum se întâmplă în mod normal cu git pull,
+folosește rebase pentru a aplica commit-urile remote deasupra 
+commit-urilor tale locale.
+
+git cherry-pick -Comanda git cherry-pick este utilizată pentru a 
+aplica un commit specific dintr-o ramură într-o altă ramură. 
+Acest lucru este util atunci când dorești să preiei modificările 
+dintr-un singur commit dintr-o ramură și să le adaugi în altă
+ramură, fără a aduce întregul istoric al commit-urilor.
+
+git blame - Comanda git blame este folosită pentru a vizualiza
+istoricul de revizuire a fiecărei linii dintr-un fișier. 
+Această comandă dezvăluie detalii despre cine a introdus fiecare 
+linie de cod și când a fost aceasta introdusă.
+
+ 
+git remote add origin URL REPOSITORI_ULUI
+git push -u 
+
+PENTRU PRESCURTATREA COMENZI GIT STATUS
+git config --global.st status|
+git st|
+
+
+ Git hooks sunt scripturi sau programe mici care pot fi executate 
+automat în anumite momente cheie ale fluxului de lucru cu Git.
+ Aceste momente cheie sunt reprezentate de anumite evenimente 
+care au loc în timpul operațiunilor Git, precum commit, push, 
+pull, etc. Folosind git hooks, poți automatiza diverse acțiuni 
+sau verificări pentru a menține consistența și calitatea codului 
+în repository-ul tău.
+
+git bisect este o comandă foarte utilă din Git care ajută la
+identificarea exactă a commit-ului care a introdus o problemă 
+sau a cauzat o eroare în istoricul dezvoltării codului. Acest 
+lucru este util în situațiile în care vrei să găsești exact când
+s-a produs o regresie sau o problemă.
+
+Comanda git fetch este folosită pentru a aduce toate schimbările 
+și referințele noi de la un repository remote în repository-ul 
+local, fără a face automat niciun fel de fuziune (merge) sau 
+reîmprospătare a ramurilor existente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
