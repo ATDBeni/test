@@ -4,9 +4,9 @@ Comande pt git pt a initializa un proiect direct in git Bash
 facem uramtoarele comenzi:
 cd "adresa folderului" ex:desktop/test-git
 git init
-cd .git
-ls 
-cd..
+cd .git//
+ls - sa vezi fiisere
+cd.. - sa iesi din folder/fisier 
 echos"# ce adaugam pe github" >>Fisierul pe care il adauga ex : echo"# test-git" >>README.ms
 git add .
 git commit -m"numele comitului" si etc
@@ -16,14 +16,14 @@ git push -u origin master
 start numelefisierului.estensia lui(txt,pdf,jpg)
 
 git status - starea proiectului
-//git push origin master
+//git push origin master 
 git log - sa vezi istoricu commiturilor
 git log -1 returneaza ultimul comit pe care l-am facut
 git log --oneline arata toate comiturile dar mai restarns scrius in terminal
 git log --stat arata comiturile si fiecare modificare adusa 
 ls - arata documentele din fisierul respectiv
 git init - -initializam un repozitori gol 
-cd .git
+cd .git 
 git rm numele fisierului - sterge fisierul pe care lai selectat
 git rm --chaced numelefisierului - Fișierul este încă prezent în directorul 
 vostru de lucru, dar nu va mai fi urmărit de Git pentru viitoarele commit-uri.
