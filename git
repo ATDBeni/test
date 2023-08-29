@@ -106,6 +106,10 @@ Comanda git fetch este folosită pentru a aduce toate schimbările
 local, fără a face automat niciun fel de fuziune (merge) sau 
 reîmprospătare a ramurilor existente.
 
+git commit -am 
+a= adaugati
+m = mesaj 
+nu mai trebuie sa dati git add . /merge si asa git commit -am
 
 
 
