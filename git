@@ -45,9 +45,10 @@ sau
   git tag numele tagului
 git fetch - este folosită pentru a aduce informații actualizate dintr-un
  depozit remote,dar fără a integra aceste modificări în ramurile locale curente
-Cum rezolvam un conflict
+
+Cum rezolvam un conflict:
 git pull(luam comitul cu care ave conflict) git merge(imbinam cu cel din respectiva
- bransa si facem sa fie oke) git push -(ii dam tata sa meraga)
+ bransa si facem sa fie oke) git push -(ii dam tata sa meraga:)) )
  
 
 git branch -m numeVechi numeNou
