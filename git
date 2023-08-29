@@ -6,7 +6,7 @@ cd "adresa folderului" ex:desktop/test-git
 git init
 cd .git//
 ls - sa vezi fiisere
-cd.. - sa iesi din folder/fisier 
+cd.. - te duce la parintele lui 
 echos"# ce adaugam pe github" >>Fisierul pe care il adauga ex : echo"# test-git" >>README.ms
 git add .
 git commit -m"numele comitului" si etc
